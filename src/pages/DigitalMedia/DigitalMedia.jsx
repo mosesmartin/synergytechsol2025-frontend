@@ -5,9 +5,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import dmm from "../../assets/dmm_synergytech.avif"
 import dmm2 from "../../assets/dmm2_synergytech.avif"
+import { Helmet } from "react-helmet";
+
 export const DigitalMedia = () => {
   return (
     <>
+    <Helmet>
+  <title>Digital Media Marketing | Synergy Tech Solutions</title>
+  <meta 
+    name="description" 
+    content="Boost your business with Synergy Tech Solutions' digital media marketing services, including SEO, content writing, GMB, and social media marketing. Reach your target audience effectively." 
+  />
+  <meta 
+    name="keywords" 
+    content="Digital Marketing, SEO, Content Writing, Google My Business, Social Media Marketing, Online Marketing, Synergy Tech Solutions" 
+  />
+  <link rel="canonical" href="https://www.synergytechsol.com/DigitalMedia" />
+</Helmet>
       <Header
         backgroundImage={
           dmm

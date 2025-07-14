@@ -128,7 +128,7 @@ const Contactus = () => {
             <h3>Phone Number:</h3>
             <p>+1 815 219 1969</p>
             <h3>Email Address:</h3>
-            <p>sales@synergytechsol.com</p>
+            <p>inquiry@synergytechsol.com</p>
           </div>
         </div>
       </div>

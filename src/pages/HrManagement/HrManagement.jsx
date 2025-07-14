@@ -6,9 +6,23 @@ import Col from "react-bootstrap/Col";
 import hrm from '../../assets/hrm_synergytech.avif'
 import hrm2 from '../../assets/hrm2_synergytech.avif'
 import hrm3 from '../../assets/hrm3_synergytech.avif'
+import { Helmet } from "react-helmet";
+
 export const HrManagement = () => {
   return (
     <>
+    <Helmet>
+  <title>Human Resource Management Services | Synergy Tech Solutions USA</title>
+  <meta name="description" content="Synergy Tech Solutions offers HR management services in the USA, including talent acquisition, employee engagement, HR compliance, and HRM solutions for SMEs." />
+  <meta name="keywords" content="Human Resource Management, HRM Services, HR Solutions USA, Talent Acquisition, Employee Engagement, HR Compliance, Synergy Tech Solutions" />
+  <meta name="author" content="Synergy Tech Solutions" />
+  <meta property="og:title" content="Human Resource Management Services | Synergy Tech Solutions USA" />
+  <meta property="og:description" content="Get expert HRM services with Synergy Tech Solutions — talent acquisition, compliance, performance management, and HR solutions for small and medium businesses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.synergytechsol.com/HrManagement" />
+  <meta property="og:image" content="https://www.synergytechsol.com/assets/hrm_synergytech.avif" />
+</Helmet>
+
       <Header
         backgroundImage={
           hrm

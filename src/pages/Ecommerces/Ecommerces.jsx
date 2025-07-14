@@ -5,10 +5,24 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ecom from '../../assets/ecom_synergytech.avif'
 import ecom2 from '../../assets/ecom2_synergytech.jpg'
+import { Helmet } from "react-helmet";
+
 
 export const Ecommerces = () => {
   return (
     <>
+
+    <Helmet>
+  <title>E-commerce Development Services | Synergy Tech Solutions</title>
+  <meta name="description" content="Synergy Tech Solutions offers top-notch e-commerce software and custom solutions for B2B, B2C, C2C, and C2B businesses. Grow your online presence with us." />
+  <meta name="keywords" content="E-commerce Solutions, Online Store Development, B2B Ecommerce, B2C Ecommerce, Ecommerce Development Company, Synergy Tech Solutions" />
+  <meta name="author" content="Synergy Tech Solutions" />
+  <meta property="og:title" content="E-commerce Development Services | Synergy Tech Solutions" />
+  <meta property="og:description" content="Custom e-commerce software solutions for businesses to grow online. We specialize in B2B, B2C, and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://synergytechsol.com/Ecommerces" />
+  <meta property="og:image" content="https://synergytechsol.com/assets/ecom_synergytech.avif" />
+</Helmet>
     <Header  backgroundImage={ecom}
          headertext={""} typeText= {"Synergy Tech Solutions"} typeText1={"E-Commerces"} />
     

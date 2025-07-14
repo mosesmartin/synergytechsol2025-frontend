@@ -6,10 +6,24 @@ import Col from "react-bootstrap/Col";
 import "./FullStack.css";
 import fsd from '../../assets/full-stack-dev_synergytechsol.avif'
 import fsd1 from '../../assets/full-stack-devlopment-synergytechsol.png'
+import { Helmet } from "react-helmet";
+
 
 export const FullStackDev = () => {
   return (
     <>
+    <Helmet>
+  <title>Full Stack Development Services | Synergy Tech Solutions USA</title>
+  <meta name="description" content="Synergy Tech Solutions offers professional full stack development services in the USA, covering frontend, backend, UI/UX, SEO, and scalable web solutions." />
+  <meta name="keywords" content="Full Stack Development, Web Development, Frontend Backend Services, Full Stack Developer USA, Synergy Tech Solutions, Web Design, Scalable Web Apps" />
+  <meta name="author" content="Synergy Tech Solutions" />
+  <meta property="og:title" content="Full Stack Development Services | Synergy Tech Solutions USA" />
+  <meta property="og:description" content="Get expert full stack development services with Synergy Tech Solutions. From responsive design to SEO and scalable web solutions, we help grow your business online." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.synergytechsol.com/FullStackDev" />
+  <meta property="og:image" content="https://www.synergytechsol.com/assets/full-stack-dev_synergytechsol.avif" />
+</Helmet>
+
       <Header
         backgroundImage={
           fsd

@@ -6,10 +6,24 @@ import Col from "react-bootstrap/Col";
 import bsm from '../../assets/bsm_synergytech.avif'
 import bsm3 from '../../assets/bsm3_synergytech.avif'
 import bsm2 from '../../assets/bsm2_synergytech.jpg'
+import { Helmet } from "react-helmet";
 
 export const BrandingSalesMarket = () => {
   return (
     <>
+    <Helmet>
+  <title>Branding, Sales & Marketing | Synergy Tech Solutions</title>
+  <meta 
+    name="description" 
+    content="Boost your business with expert branding, sales, and marketing strategies from Synergy Tech Solutions. We help you build brand identity, drive sales, and reach your target audience." 
+  />
+  <meta 
+    name="keywords" 
+    content="Branding Services, Sales Strategies, Marketing Solutions, Business Growth, Digital Marketing, CRM, Synergy Tech Solutions" 
+  />
+  <link rel="canonical" href="https://www.synergytechsol.com/BrandingSalesMarket" />
+</Helmet>
+
       <Header
         backgroundImage={
           bsm

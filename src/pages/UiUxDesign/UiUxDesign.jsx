@@ -5,9 +5,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import uiux from '../../assets/uiux_synergytech.avif'
 import uiux2 from '../../assets/uiux2_synergytech.avif'
+import { Helmet } from "react-helmet";
+
 export const UiUxDesign = () => {
   return (
     <>
+    <Helmet>
+  <title>UI/UX Design Services | Synergy Tech Solutions USA</title>
+  <meta name="description" content="Get professional UI/UX design services from Synergy Tech Solutions. We offer SaaS UI design, website UX design, e-commerce UX, and mobile UI/UX development." />
+  <meta name="keywords" content="UI/UX Design, Website Design, Mobile UI, SaaS Design, E-commerce UX, UX Development USA, Synergy Tech Solutions" />
+  <meta name="author" content="Synergy Tech Solutions" />
+  <meta property="og:title" content="UI/UX Design Services | Synergy Tech Solutions USA" />
+  <meta property="og:description" content="Professional UI/UX design services for websites, mobile apps, SaaS platforms, and e-commerce businesses by Synergy Tech Solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.synergytechsol.com/UiUxDesign" />
+  <meta property="og:image" content="https://www.synergytechsol.com/assets/uiux_synergytech.avif" />
+</Helmet>
+
       <Header
         backgroundImage={
           uiux

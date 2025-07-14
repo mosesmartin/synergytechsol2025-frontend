@@ -6,10 +6,24 @@ import Col from "react-bootstrap/Col";
 import mobapp from '../../assets/mobapp_synergytech.avif'
 import mobapp2 from '../../assets/mobapp2_synergytech.avif'
 import mobapp3 from '../../assets/mobapp3_synergytech.png'
+import { Helmet } from "react-helmet";
+
 
 export default function WebAppDevelopment() {
   return (
     <>
+
+    <Helmet>
+  <title>Mobile App Development Services | Synergy Tech Solutions USA</title>
+  <meta name="description" content="Expert mobile app development services by Synergy Tech Solutions — Android, iOS, Cross-platform, and Desktop applications. High-performance, user-friendly apps." />
+  <meta name="keywords" content="Mobile App Development, Android App Development, iOS App Development, Cross-Platform Apps, Desktop Applications, Synergy Tech Solutions USA" />
+  <meta name="author" content="Synergy Tech Solutions" />
+  <meta property="og:title" content="Mobile App Development Services | Synergy Tech Solutions USA" />
+  <meta property="og:description" content="Build powerful Android, iOS, and cross-platform apps with Synergy Tech Solutions — your reliable mobile app development partner." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.synergytechsol.com/MobileAppDevelopment" />
+  <meta property="og:image" content="https://www.synergytechsol.com/assets/mobapp_synergytech.avif" />
+</Helmet>
       <Header
         backgroundImage={
           mobapp

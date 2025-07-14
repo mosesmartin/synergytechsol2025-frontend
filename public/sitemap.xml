@@ -1,15 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://www.synergytechsol.com/</loc>
     <priority>1.00</priority>
   </url>
+
   <url>
-    <loc>https://www.synergytechsol.com/aboutus</loc>
+    <loc>https://www.synergytechsol.com/AboutSs</loc>
     <priority>0.80</priority>
   </url>
+
   <url>
-    <loc>https://www.synergytechsol.com/contactus</loc>
+    <loc>https://www.synergytechsol.com/ContactUs</loc>
     <priority>0.80</priority>
   </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/FullStackDev</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/MobileAppDevelopment</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/CustomerService</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/DigitalMedia</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/FinancialServices</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/UiUxDesign</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/HrManagement</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/BrandingSalesMarket</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/Ecommerces</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.synergytechsol.com/EmailChatSupport</loc>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>

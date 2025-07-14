@@ -6,10 +6,23 @@ import Col from "react-bootstrap/Col";
 import customer from "../../assets/customer_synergytech.avif"
 import customer2 from "../../assets/customer2_synergytech.avif"
 import customer3 from "../../assets/customer3_synergytech.avif"
+import { Helmet } from "react-helmet";
 
 export const CustomerService = () => {
   return (
     <>
+    <Helmet>
+  <title>Customer Services | Synergy Tech Solutions</title>
+  <meta 
+    name="description" 
+    content="Enhance customer loyalty, retention, and business productivity with Synergy Tech Solutions' inbound and outbound call center services. Your partner for customer engagement and acquisition." 
+  />
+  <meta 
+    name="keywords" 
+    content="Customer Services, Inbound Call Center, Outbound Call Center, Customer Engagement, Customer Retention, Call Center Solutions, Synergy Tech Solutions" 
+  />
+  <link rel="canonical" href="https://www.synergytechsol.com/CustomerService" />
+</Helmet>
       <Header
         backgroundImage={
           

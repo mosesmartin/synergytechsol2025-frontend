@@ -6,10 +6,23 @@ import Col from "react-bootstrap/Col";
 import emailchat from '../../assets/email_synergytech.avif'
 import emailchat2 from '../../assets/email2_synergytech.avif'
 import emailchat3 from '../../assets/email3_synergytech.avif'
+import { Helmet } from "react-helmet";
+
 
 export const EmailChatSupport = () => {
   return (
     <>
+    <Helmet>
+  <title>Email & Chat Support Services | Synergy Tech Solutions</title>
+  <meta name="description" content="Get reliable 24/7 email and chat support services from Synergy Tech Solutions in the USA. Enhance your brand with professional customer support." />
+  <meta name="keywords" content="Email Support Services, Chat Support Services, 24/7 Customer Support, USA Support Services, Synergy Tech Solutions" />
+  <meta name="author" content="Synergy Tech Solutions" />
+  <meta property="og:title" content="Email & Chat Support Services | Synergy Tech Solutions" />
+  <meta property="og:description" content="Boost your business with our email and chat support services tailored for your brand." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.synergytechsol.com/EmailChatSupport" />
+  <meta property="og:image" content="https://www.synergytechsol.com/EmailChatSupport/assets/email_synergytech.avif" />
+</Helmet>
       <Header
         backgroundImage={
           emailchat

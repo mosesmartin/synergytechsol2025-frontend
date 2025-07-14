@@ -5,10 +5,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import fin from '../../assets/financial_synergytech.avif'
 import fin1 from '../../assets/financial2_synergytech.avif'
+import { Helmet } from "react-helmet";
 
 export const FinancialServices = () => {
   return (
     <>
+    <Helmet>
+  <title>Financial Services & Business Funding | Synergy Tech Solutions</title>
+  <meta name="description" content="Synergy Tech Solutions provides expert financial services including analysis, planning, forecasting, loan assistance, and merchant cash advances in the USA." />
+  <meta name="keywords" content="Financial Services, Business Funding, Merchant Cash Advance, Reverse Consolidation, Financial Planning, Synergy Tech Solutions USA" />
+  <meta name="author" content="Synergy Tech Solutions" />
+  <meta property="og:title" content="Financial Services & Business Funding | Synergy Tech Solutions" />
+  <meta property="og:description" content="Get customized financial solutions, expert business funding, and financial planning services from Synergy Tech Solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.synergytechsol.com/FinancialServices" />
+  <meta property="og:image" content="https://www.synergytechsol.com/FinancialServices/assets/financial_synergytech.avif" />
+</Helmet>
+
       <Header
         backgroundImage={
           fin
