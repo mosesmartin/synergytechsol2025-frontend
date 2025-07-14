@@ -1,0 +1,17 @@
+body {
+    /* font-size: 15px; */
+    font-family: 'Poppins';
+}
+
+.text1{
+    font-size: 16px;
+}
+
+.card-title{
+    font-size: 25px !important;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 16px !important;
+}

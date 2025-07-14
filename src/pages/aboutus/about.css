@@ -1,0 +1,126 @@
+.text1 {
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  
+  .css-ft4jij-MuiDivider-root {
+    margin: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-width: 1px !important;
+    border-style: solid;
+    border-color: rgb(255 255 255) !important;
+    border-bottom-width: thin;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  /* @media screen and (width: 320px) {
+    .orderimg {
+      order: 3;
+      margin-left: -10px;
+    }
+  }
+  @media screen and (width: 375px) {
+    .orderimg {
+      order: 3;
+      margin-left: -10px;
+    }
+  }
+  @media screen and (width: 425px) {
+    .orderimg {
+      order: 3;
+      margin-left: -10px;
+    }
+  }
+  @media screen and (width: 768px) {
+    .orderimg {
+      width: 345px;
+    }
+  } */
+  
+  
+  @media (min-width: 144px) and (max-width:320px)  {
+    .gif {
+      width: 272px !important;
+      margin-top: 20px;
+    }
+    .orderimg{
+      order: 3;
+    }
+  }
+  @media (min-width: 321px) and (max-width:360px)  {
+    .gif {
+      width: 313px !important;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .orderimg{
+      order: 3;
+    }
+  }
+  @media (min-width:361px) and (max-width: 375px) {
+    .gif {
+      display: flex;
+      width: 324px !important;
+    }
+    .orderimg{
+      order: 3;
+    }
+  }
+  @media (min-width: 380px) and (max-width:390px)  {
+    .gif {
+      width: 340px !important;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .orderimg{
+      order: 3;
+    }
+  }
+  @media (min-width:376px) and (max-width: 500px) {
+    .abutimg {
+      width: 426px !important;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .orderimg{
+      order: 3;
+    }
+  }
+  @media (min-width: 768px) and (max-width:840px){
+    .gif {
+      /* width: 345px !important;
+      height: 266px !important;
+      margin-top: -30px !important; */
+      margin-bottom: 10px !important;
+    }
+    .orderimg{
+      order:3;
+    }
+  }
+  
+  @media (min-width: 840px) and (max-width:990px){
+    .gif {
+      /* width: 345px !important;
+      height: 266px !important;
+      margin-top: -30px !important; */
+      margin-bottom: 10px !important;
+    }
+    .orderimg{
+      order:3;
+    }
+  }
+  @media (min-width: 500px) and (max-width:770px){
+    .gif {
+      /* width: 345px !important;
+      height: 266px !important;
+      margin-top: -30px !important; */
+      margin-bottom: 10px !important;
+    }
+    .orderimg{
+      order:3;
+    }
+  }

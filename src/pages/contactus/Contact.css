@@ -1,0 +1,7 @@
+.has-error .form-control {
+  border-color: red;
+}
+
+.has-error .invalid-feedback {
+  color: red;
+}

@@ -1,0 +1,32 @@
+.logofooter {
+    width: 198px;
+    margin-top: 12px;
+  }
+  .footerservices {
+    list-style: none;
+    margin-top: 20px;
+    border-radius: red 2px solid;
+  }
+  .linkList{
+    text-decoration: none;
+    color: inherit;
+
+  }
+  .linkList:hover{
+    text-decoration: none;
+    color: inherit;
+    
+  }
+  .list {
+    line-height: 45px;
+    text-align: center;
+  }
+  
+  .conlist {
+    list-style: none;
+  }
+
+  .fDetail{
+    margin-top: 20px;
+    text-align: center;
+  }
