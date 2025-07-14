@@ -88,11 +88,15 @@ const Footer = () => {
               <li className="conlist">
                 <i className="bi bi-inbox"></i> sales@synergytechsol.com
               </li>
+              
               <h5 style={{ marginTop: "20px" }}>Phone Number</h5>
               <li className="conlist">
                 <i className="bi-phone"></i> +1 815 219 1969
               </li>
-              
+              <h5 style={{ marginTop: "20px" }}>Address</h5>
+              <li className="conlist">
+                <i className="bi-pin-map"></i> 284 Regminton Dr Saint Charles, IL 60175
+              </li>
               
             </Col>
           </Row>
