@@ -7,9 +7,25 @@ import "./about.css"
 import about1 from "../../assets/about1_synergytech.avif"
 import about2 from "../../assets/about2_synergytech.avif"
 import about3 from "../../assets/about3_synergytech.avif"
+import { Helmet } from 'react-helmet';
 export default function AboutUs() {
   return (
     <>
+     <Helmet>
+        <title>About Us | Synergy Tech Solutions</title>
+        <meta
+          name="description"
+          content="Learn about Synergy Tech Solutions — a passionate team delivering innovative web applications, digital solutions, and affordable, cutting-edge technologies that empower business growth."
+        />
+        <meta
+          name="keywords"
+          content="About Synergy Tech Solutions, Business Growth, Web Development Company, Affordable IT Solutions, Digital Solutions Provider"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.synergytechsol.com/aboutus" />
+      </Helmet>
+
+
     <Header backgroundImage={about1} typeText= {"Synergy Tech Solutions"}  typeText1={"About Us"}/>
     
       <Container>

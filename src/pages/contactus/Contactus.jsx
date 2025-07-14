@@ -8,7 +8,7 @@ import contact from '../../assets/contact_synergytech.avif';
 import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import { Helmet } from 'react-helmet';
 const API_BASE_URL = 'https://synergytechsol2025.onrender.com';
 
 const Contactus = () => {
@@ -52,6 +52,22 @@ const Contactus = () => {
 
   return (
     <>
+
+    <Helmet>
+        <title>Contact Us | Synergy Tech Solutions</title>
+        <meta
+          name="description"
+          content="Contact Synergy Tech Solutions for innovative web app development, digital services, and expert business solutions. Get in touch today!"
+        />
+        <meta
+          name="keywords"
+          content="Contact Synergy Tech Solutions, Business Inquiry, Web App Development, Digital Marketing Services, Custom Software Solutions"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.synergytechsol.com/ContactUs" />
+      </Helmet>
+
+
       <Header backgroundImage={contact} typeText={'Synergy Tech Solutions'} typeText1={'Contact Us'} />
       <Container>
         <Row>

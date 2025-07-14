@@ -7,10 +7,23 @@ import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import home1 from "../../assets/home1synergytechsol.avif"
 import home2 from "../../assets/home2_synergytechsol.avif"
-
+import { Helmet } from 'react-helmet';
 export default function Home() {
   return (
     <>
+    <Helmet>
+        <title>Synergy Tech Solutions | Web & Digital Solutions</title>
+        <meta
+          name="description"
+          content="Synergy Tech Solutions offers custom web app development, full-stack services, digital marketing, UI/UX design, and business solutions to help your brand grow online."
+        />
+        <meta
+          name="keywords"
+          content="Synergy Tech Solutions, Web Development, Full Stack Development, Digital Marketing, UI/UX Design, E-commerce Solutions, Business Services"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.synergytechsol.com/" />
+      </Helmet>
       <Header
         backgroundImage={
       home1
