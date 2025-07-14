@@ -9,6 +9,7 @@ import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from 'react-helmet';
+
 const API_BASE_URL = 'https://synergytechsol2025.onrender.com';
 
 const Contactus = () => {
@@ -17,6 +18,7 @@ const Contactus = () => {
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const [errors, setErrors] = useState({});
+  const [loading, setLoading] = useState(false);
 
   const validateForm = () => {
     const newErrors = {};
@@ -34,6 +36,7 @@ const Contactus = () => {
     e.preventDefault();
     if (!validateForm()) return;
 
+    setLoading(true);
     try {
       const response = await axios.post(`${API_BASE_URL}/api/send-email`, { name, email, phone, message });
       if (response.status === 200) {
@@ -47,13 +50,14 @@ const Contactus = () => {
     } catch (error) {
       toast.error('Failed to submit inquiry. Please try again later.');
       console.error('Error sending email:', error);
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <>
-
-    <Helmet>
+      <Helmet>
         <title>Contact Us | Synergy Tech Solutions</title>
         <meta
           name="description"
@@ -67,8 +71,8 @@ const Contactus = () => {
         <link rel="canonical" href="https://www.synergytechsol.com/ContactUs" />
       </Helmet>
 
-
       <Header backgroundImage={contact} typeText={'Synergy Tech Solutions'} typeText1={'Contact Us'} />
+
       <Container>
         <Row>
           <Col md={12} xs={12} className="mt-5 text-center">
@@ -100,6 +104,7 @@ const Contactus = () => {
                           ? setEmail(e.target.value)
                           : setPhone(e.target.value)
                       }
+                      disabled={loading}
                     />
                   ) : (
                     <textarea
@@ -109,6 +114,7 @@ const Contactus = () => {
                       style={{ height: '10rem' }}
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
+                      disabled={loading}
                     ></textarea>
                   )}
                   <label htmlFor={field}>{field.charAt(0).toUpperCase() + field.slice(1)}</label>
@@ -117,8 +123,19 @@ const Contactus = () => {
               ))}
 
               <div className="d-grid">
-                <button className="btn btn-primary btn-xl" type="submit">
-                  Submit
+                <button className="btn btn-primary btn-xl" type="submit" disabled={loading}>
+                  {loading ? (
+                    <>
+                      <span
+                        className="spinner-border spinner-border-sm me-2"
+                        role="status"
+                        aria-hidden="true"
+                      ></span>
+                      Submitting...
+                    </>
+                  ) : (
+                    'Submit'
+                  )}
                 </button>
               </div>
             </form>
@@ -132,6 +149,7 @@ const Contactus = () => {
           </div>
         </div>
       </div>
+
       <ToastContainer position="top-center" />
     </>
   );
