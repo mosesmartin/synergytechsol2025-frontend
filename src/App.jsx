@@ -17,6 +17,8 @@ import { Ecommerces } from './pages/Ecommerces/Ecommerces';
 import { EmailChatSupport } from './pages/Email&ChatSupport/EmailChatSupport';
 import { FullStackDev } from './pages/FullStackDev/FullStackDev';
 import ScrollToTop from './component/ScrollToTop/ScrollToTop';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
